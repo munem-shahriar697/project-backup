@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="css/responsive.css">
 	<!-- include the site color stylesheet -->
 	<link rel="stylesheet" href="css/color/color.css">
+
+
 </head>
 
 <body>
@@ -36,25 +38,22 @@
 	<!-- main container of all the page elements -->
 	<div id="wrapper">
 		<!-- header of the page -->
-		<header id="header" class="sticky-header">
-			<div class="custom-navbar">
-				<ul>
-					<li class="logo-item"><a href="#" class="smoothanchor"><img src="images/logo.png" alt="ias_logo"
-								style="height: 100px;"></a></li>
-					<li class="nav-items active"><a href="#wrapper" class="smoothanchor">Home</a></li>
-					<li class="nav-items"><a href="#section1" class="smoothanchor">About</a></li>
-					<li class="nav-items"><a href="#section2" class="smoothanchor">R&D</a></li>
-					<li class="nav-items"><a href="#section3" class="smoothanchor">Sustainability</a></li>
-					<li class="nav-items"><a href="#section4" class="smoothanchor">Product Line</a></li>
-					<li class="nav-items"><a href="#section5" class="smoothanchor">QMS</a></li>
-					<li class="nav-items"><a href="#section6" class="smoothanchor">Partners</a></li>
-					<li class="nav-items"><a href="#section7" class="smoothanchor">Product gallery</a></li>
-				</ul>
+		<section class="et-hero-tabs">
+			<h1>STICKY SLIDER NAV</h1>
+			<h3>Sliding content with sticky tab nav</h3>
+			<div class="et-hero-tabs-container">
+			  <a class="et-hero-tab" href="#tab-es6">ES6</a>
+			  <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
+			  <a class="et-hero-tab" href="#tab-react">React</a>
+			  <a class="et-hero-tab" href="#tab-angular">Angular</a>
+			  <a class="et-hero-tab" href="#tab-other">Other</a>
+			  <span class="et-hero-tab-slider"></span>
 			</div>
-		</header>
+		</section>
+		
 
 		<!-- contain main informative part of the site -->
-		<main id="main">
+		<main id="main" class="et-main">
 			<!-- visual -->
 			<div class="visual">
 				<div class="max-container">
@@ -808,6 +807,8 @@
 		<span id="back-top" class="fa fa-arrow-up"></span>
 	</div>
 	<script src="js/jquery.js"></script>
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+	<script src="js/navbar.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script type="text/javascript" src="js/functions.js"></script>
 	<script type="text/javascript">
@@ -834,6 +835,7 @@
 			document.querySelector('head').appendChild(msViewportStyle)
 		}
 	</script>
+
 </body>
 
 </html>
