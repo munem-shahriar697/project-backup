@@ -1207,11 +1207,12 @@ a:focus {
 	position: relative;
 	-webkit-transition: all ease .5s;
 	transition: all ease .5s;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 16px;
 	color: #252525;
-	padding: 20px 22px;
+	padding: 20px 12px;
 	letter-spacing: 2px;
+	font-weight: 700;
 }
 
 #header .navbar-nav a:after,
