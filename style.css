@@ -190,8 +190,10 @@ Theme URI:
 }
 
 .ellipsis {
-	white-space: nowrap; /* 1 */
-	text-overflow: ellipsis; /* 2 */
+	white-space: nowrap;
+	/* 1 */
+	text-overflow: ellipsis;
+	/* 2 */
 	overflow: hidden;
 }
 
@@ -203,48 +205,27 @@ img {
 .comment-form input[type="text"],
 .search-form input[type="text"],
 .post-password-form input[type="text"],
-.comment-form
-input[type="tel"],
-.search-form
-input[type="tel"],
-.post-password-form
-input[type="tel"],
-.comment-form
-input[type="email"],
-.search-form
-input[type="email"],
-.post-password-form
-input[type="email"],
-.comment-form
-input[type="search"],
-.search-form
-input[type="search"],
-.post-password-form
-input[type="search"],
-.comment-form
-input[type="password"],
-.search-form
-input[type="password"],
-.post-password-form
-input[type="password"],
-.comment-form
-input[type="url"],
-.search-form
-input[type="url"],
-.post-password-form
-input[type="url"],
-.comment-form
-input[type="date"],
-.search-form
-input[type="date"],
-.post-password-form
-input[type="date"],
-.comment-form
-textarea,
-.search-form
-textarea,
-.post-password-form
-textarea {
+.comment-form input[type="tel"],
+.search-form input[type="tel"],
+.post-password-form input[type="tel"],
+.comment-form input[type="email"],
+.search-form input[type="email"],
+.post-password-form input[type="email"],
+.comment-form input[type="search"],
+.search-form input[type="search"],
+.post-password-form input[type="search"],
+.comment-form input[type="password"],
+.search-form input[type="password"],
+.post-password-form input[type="password"],
+.comment-form input[type="url"],
+.search-form input[type="url"],
+.post-password-form input[type="url"],
+.comment-form input[type="date"],
+.search-form input[type="date"],
+.post-password-form input[type="date"],
+.comment-form textarea,
+.search-form textarea,
+.post-password-form textarea {
 	-webkit-appearance: none;
 	-webkit-border-radius: 0;
 	border: 1px solid #999;
@@ -254,144 +235,81 @@ textarea {
 .comment-form input[type="text"]:focus,
 .search-form input[type="text"]:focus,
 .post-password-form input[type="text"]:focus,
-.comment-form
-  input[type="tel"]:focus,
-.search-form
-  input[type="tel"]:focus,
-.post-password-form
-  input[type="tel"]:focus,
-.comment-form
-  input[type="email"]:focus,
-.search-form
-  input[type="email"]:focus,
-.post-password-form
-  input[type="email"]:focus,
-.comment-form
-  input[type="search"]:focus,
-.search-form
-  input[type="search"]:focus,
-.post-password-form
-  input[type="search"]:focus,
-.comment-form
-  input[type="password"]:focus,
-.search-form
-  input[type="password"]:focus,
-.post-password-form
-  input[type="password"]:focus,
-.comment-form
-  input[type="url"]:focus,
-.search-form
-  input[type="url"]:focus,
-.post-password-form
-  input[type="url"]:focus,
-.comment-form
-  input[type="date"]:focus,
-.search-form
-  input[type="date"]:focus,
-.post-password-form
-  input[type="date"]:focus,
-.comment-form
-  textarea:focus,
-.search-form
-  textarea:focus,
-.post-password-form
-  textarea:focus {
+.comment-form input[type="tel"]:focus,
+.search-form input[type="tel"]:focus,
+.post-password-form input[type="tel"]:focus,
+.comment-form input[type="email"]:focus,
+.search-form input[type="email"]:focus,
+.post-password-form input[type="email"]:focus,
+.comment-form input[type="search"]:focus,
+.search-form input[type="search"]:focus,
+.post-password-form input[type="search"]:focus,
+.comment-form input[type="password"]:focus,
+.search-form input[type="password"]:focus,
+.post-password-form input[type="password"]:focus,
+.comment-form input[type="url"]:focus,
+.search-form input[type="url"]:focus,
+.post-password-form input[type="url"]:focus,
+.comment-form input[type="date"]:focus,
+.search-form input[type="date"]:focus,
+.post-password-form input[type="date"]:focus,
+.comment-form textarea:focus,
+.search-form textarea:focus,
+.post-password-form textarea:focus {
 	border-color: #333;
 }
 
 .comment-form input[type="text"] ::-webkit-input-placeholder,
 .search-form input[type="text"] ::-webkit-input-placeholder,
 .post-password-form input[type="text"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="tel"] ::-webkit-input-placeholder,
-.search-form
-  input[type="tel"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="tel"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="email"] ::-webkit-input-placeholder,
-.search-form
-  input[type="email"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="email"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="search"] ::-webkit-input-placeholder,
-.search-form
-  input[type="search"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="search"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="password"] ::-webkit-input-placeholder,
-.search-form
-  input[type="password"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="password"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="url"] ::-webkit-input-placeholder,
-.search-form
-  input[type="url"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="url"] ::-webkit-input-placeholder,
-.comment-form
-  input[type="date"] ::-webkit-input-placeholder,
-.search-form
-  input[type="date"] ::-webkit-input-placeholder,
-.post-password-form
-  input[type="date"] ::-webkit-input-placeholder,
-.comment-form
-  textarea ::-webkit-input-placeholder,
-.search-form
-  textarea ::-webkit-input-placeholder,
-.post-password-form
-  textarea ::-webkit-input-placeholder {
+.comment-form input[type="tel"] ::-webkit-input-placeholder,
+.search-form input[type="tel"] ::-webkit-input-placeholder,
+.post-password-form input[type="tel"] ::-webkit-input-placeholder,
+.comment-form input[type="email"] ::-webkit-input-placeholder,
+.search-form input[type="email"] ::-webkit-input-placeholder,
+.post-password-form input[type="email"] ::-webkit-input-placeholder,
+.comment-form input[type="search"] ::-webkit-input-placeholder,
+.search-form input[type="search"] ::-webkit-input-placeholder,
+.post-password-form input[type="search"] ::-webkit-input-placeholder,
+.comment-form input[type="password"] ::-webkit-input-placeholder,
+.search-form input[type="password"] ::-webkit-input-placeholder,
+.post-password-form input[type="password"] ::-webkit-input-placeholder,
+.comment-form input[type="url"] ::-webkit-input-placeholder,
+.search-form input[type="url"] ::-webkit-input-placeholder,
+.post-password-form input[type="url"] ::-webkit-input-placeholder,
+.comment-form input[type="date"] ::-webkit-input-placeholder,
+.search-form input[type="date"] ::-webkit-input-placeholder,
+.post-password-form input[type="date"] ::-webkit-input-placeholder,
+.comment-form textarea ::-webkit-input-placeholder,
+.search-form textarea ::-webkit-input-placeholder,
+.post-password-form textarea ::-webkit-input-placeholder {
 	color: #ccc;
 }
 
 .comment-form input[type="text"] ::-moz-placeholder,
 .search-form input[type="text"] ::-moz-placeholder,
 .post-password-form input[type="text"] ::-moz-placeholder,
-.comment-form
-  input[type="tel"] ::-moz-placeholder,
-.search-form
-  input[type="tel"] ::-moz-placeholder,
-.post-password-form
-  input[type="tel"] ::-moz-placeholder,
-.comment-form
-  input[type="email"] ::-moz-placeholder,
-.search-form
-  input[type="email"] ::-moz-placeholder,
-.post-password-form
-  input[type="email"] ::-moz-placeholder,
-.comment-form
-  input[type="search"] ::-moz-placeholder,
-.search-form
-  input[type="search"] ::-moz-placeholder,
-.post-password-form
-  input[type="search"] ::-moz-placeholder,
-.comment-form
-  input[type="password"] ::-moz-placeholder,
-.search-form
-  input[type="password"] ::-moz-placeholder,
-.post-password-form
-  input[type="password"] ::-moz-placeholder,
-.comment-form
-  input[type="url"] ::-moz-placeholder,
-.search-form
-  input[type="url"] ::-moz-placeholder,
-.post-password-form
-  input[type="url"] ::-moz-placeholder,
-.comment-form
-  input[type="date"] ::-moz-placeholder,
-.search-form
-  input[type="date"] ::-moz-placeholder,
-.post-password-form
-  input[type="date"] ::-moz-placeholder,
-.comment-form
-  textarea ::-moz-placeholder,
-.search-form
-  textarea ::-moz-placeholder,
-.post-password-form
-  textarea ::-moz-placeholder {
+.comment-form input[type="tel"] ::-moz-placeholder,
+.search-form input[type="tel"] ::-moz-placeholder,
+.post-password-form input[type="tel"] ::-moz-placeholder,
+.comment-form input[type="email"] ::-moz-placeholder,
+.search-form input[type="email"] ::-moz-placeholder,
+.post-password-form input[type="email"] ::-moz-placeholder,
+.comment-form input[type="search"] ::-moz-placeholder,
+.search-form input[type="search"] ::-moz-placeholder,
+.post-password-form input[type="search"] ::-moz-placeholder,
+.comment-form input[type="password"] ::-moz-placeholder,
+.search-form input[type="password"] ::-moz-placeholder,
+.post-password-form input[type="password"] ::-moz-placeholder,
+.comment-form input[type="url"] ::-moz-placeholder,
+.search-form input[type="url"] ::-moz-placeholder,
+.post-password-form input[type="url"] ::-moz-placeholder,
+.comment-form input[type="date"] ::-moz-placeholder,
+.search-form input[type="date"] ::-moz-placeholder,
+.post-password-form input[type="date"] ::-moz-placeholder,
+.comment-form textarea ::-moz-placeholder,
+.search-form textarea ::-moz-placeholder,
+.post-password-form textarea ::-moz-placeholder {
 	opacity: 1;
 	color: #ccc;
 }
@@ -399,144 +317,81 @@ textarea {
 .comment-form input[type="text"] :-moz-placeholder,
 .search-form input[type="text"] :-moz-placeholder,
 .post-password-form input[type="text"] :-moz-placeholder,
-.comment-form
-  input[type="tel"] :-moz-placeholder,
-.search-form
-  input[type="tel"] :-moz-placeholder,
-.post-password-form
-  input[type="tel"] :-moz-placeholder,
-.comment-form
-  input[type="email"] :-moz-placeholder,
-.search-form
-  input[type="email"] :-moz-placeholder,
-.post-password-form
-  input[type="email"] :-moz-placeholder,
-.comment-form
-  input[type="search"] :-moz-placeholder,
-.search-form
-  input[type="search"] :-moz-placeholder,
-.post-password-form
-  input[type="search"] :-moz-placeholder,
-.comment-form
-  input[type="password"] :-moz-placeholder,
-.search-form
-  input[type="password"] :-moz-placeholder,
-.post-password-form
-  input[type="password"] :-moz-placeholder,
-.comment-form
-  input[type="url"] :-moz-placeholder,
-.search-form
-  input[type="url"] :-moz-placeholder,
-.post-password-form
-  input[type="url"] :-moz-placeholder,
-.comment-form
-  input[type="date"] :-moz-placeholder,
-.search-form
-  input[type="date"] :-moz-placeholder,
-.post-password-form
-  input[type="date"] :-moz-placeholder,
-.comment-form
-  textarea :-moz-placeholder,
-.search-form
-  textarea :-moz-placeholder,
-.post-password-form
-  textarea :-moz-placeholder {
+.comment-form input[type="tel"] :-moz-placeholder,
+.search-form input[type="tel"] :-moz-placeholder,
+.post-password-form input[type="tel"] :-moz-placeholder,
+.comment-form input[type="email"] :-moz-placeholder,
+.search-form input[type="email"] :-moz-placeholder,
+.post-password-form input[type="email"] :-moz-placeholder,
+.comment-form input[type="search"] :-moz-placeholder,
+.search-form input[type="search"] :-moz-placeholder,
+.post-password-form input[type="search"] :-moz-placeholder,
+.comment-form input[type="password"] :-moz-placeholder,
+.search-form input[type="password"] :-moz-placeholder,
+.post-password-form input[type="password"] :-moz-placeholder,
+.comment-form input[type="url"] :-moz-placeholder,
+.search-form input[type="url"] :-moz-placeholder,
+.post-password-form input[type="url"] :-moz-placeholder,
+.comment-form input[type="date"] :-moz-placeholder,
+.search-form input[type="date"] :-moz-placeholder,
+.post-password-form input[type="date"] :-moz-placeholder,
+.comment-form textarea :-moz-placeholder,
+.search-form textarea :-moz-placeholder,
+.post-password-form textarea :-moz-placeholder {
 	color: #ccc;
 }
 
 .comment-form input[type="text"] :-ms-input-placeholder,
 .search-form input[type="text"] :-ms-input-placeholder,
 .post-password-form input[type="text"] :-ms-input-placeholder,
-.comment-form
-  input[type="tel"] :-ms-input-placeholder,
-.search-form
-  input[type="tel"] :-ms-input-placeholder,
-.post-password-form
-  input[type="tel"] :-ms-input-placeholder,
-.comment-form
-  input[type="email"] :-ms-input-placeholder,
-.search-form
-  input[type="email"] :-ms-input-placeholder,
-.post-password-form
-  input[type="email"] :-ms-input-placeholder,
-.comment-form
-  input[type="search"] :-ms-input-placeholder,
-.search-form
-  input[type="search"] :-ms-input-placeholder,
-.post-password-form
-  input[type="search"] :-ms-input-placeholder,
-.comment-form
-  input[type="password"] :-ms-input-placeholder,
-.search-form
-  input[type="password"] :-ms-input-placeholder,
-.post-password-form
-  input[type="password"] :-ms-input-placeholder,
-.comment-form
-  input[type="url"] :-ms-input-placeholder,
-.search-form
-  input[type="url"] :-ms-input-placeholder,
-.post-password-form
-  input[type="url"] :-ms-input-placeholder,
-.comment-form
-  input[type="date"] :-ms-input-placeholder,
-.search-form
-  input[type="date"] :-ms-input-placeholder,
-.post-password-form
-  input[type="date"] :-ms-input-placeholder,
-.comment-form
-  textarea :-ms-input-placeholder,
-.search-form
-  textarea :-ms-input-placeholder,
-.post-password-form
-  textarea :-ms-input-placeholder {
+.comment-form input[type="tel"] :-ms-input-placeholder,
+.search-form input[type="tel"] :-ms-input-placeholder,
+.post-password-form input[type="tel"] :-ms-input-placeholder,
+.comment-form input[type="email"] :-ms-input-placeholder,
+.search-form input[type="email"] :-ms-input-placeholder,
+.post-password-form input[type="email"] :-ms-input-placeholder,
+.comment-form input[type="search"] :-ms-input-placeholder,
+.search-form input[type="search"] :-ms-input-placeholder,
+.post-password-form input[type="search"] :-ms-input-placeholder,
+.comment-form input[type="password"] :-ms-input-placeholder,
+.search-form input[type="password"] :-ms-input-placeholder,
+.post-password-form input[type="password"] :-ms-input-placeholder,
+.comment-form input[type="url"] :-ms-input-placeholder,
+.search-form input[type="url"] :-ms-input-placeholder,
+.post-password-form input[type="url"] :-ms-input-placeholder,
+.comment-form input[type="date"] :-ms-input-placeholder,
+.search-form input[type="date"] :-ms-input-placeholder,
+.post-password-form input[type="date"] :-ms-input-placeholder,
+.comment-form textarea :-ms-input-placeholder,
+.search-form textarea :-ms-input-placeholder,
+.post-password-form textarea :-ms-input-placeholder {
 	color: #ccc;
 }
 
 .comment-form input[type="text"] .placeholder,
 .search-form input[type="text"] .placeholder,
 .post-password-form input[type="text"] .placeholder,
-.comment-form
-  input[type="tel"] .placeholder,
-.search-form
-  input[type="tel"] .placeholder,
-.post-password-form
-  input[type="tel"] .placeholder,
-.comment-form
-  input[type="email"] .placeholder,
-.search-form
-  input[type="email"] .placeholder,
-.post-password-form
-  input[type="email"] .placeholder,
-.comment-form
-  input[type="search"] .placeholder,
-.search-form
-  input[type="search"] .placeholder,
-.post-password-form
-  input[type="search"] .placeholder,
-.comment-form
-  input[type="password"] .placeholder,
-.search-form
-  input[type="password"] .placeholder,
-.post-password-form
-  input[type="password"] .placeholder,
-.comment-form
-  input[type="url"] .placeholder,
-.search-form
-  input[type="url"] .placeholder,
-.post-password-form
-  input[type="url"] .placeholder,
-.comment-form
-  input[type="date"] .placeholder,
-.search-form
-  input[type="date"] .placeholder,
-.post-password-form
-  input[type="date"] .placeholder,
-.comment-form
-  textarea .placeholder,
-.search-form
-  textarea .placeholder,
-.post-password-form
-  textarea .placeholder {
+.comment-form input[type="tel"] .placeholder,
+.search-form input[type="tel"] .placeholder,
+.post-password-form input[type="tel"] .placeholder,
+.comment-form input[type="email"] .placeholder,
+.search-form input[type="email"] .placeholder,
+.post-password-form input[type="email"] .placeholder,
+.comment-form input[type="search"] .placeholder,
+.search-form input[type="search"] .placeholder,
+.post-password-form input[type="search"] .placeholder,
+.comment-form input[type="password"] .placeholder,
+.search-form input[type="password"] .placeholder,
+.post-password-form input[type="password"] .placeholder,
+.comment-form input[type="url"] .placeholder,
+.search-form input[type="url"] .placeholder,
+.post-password-form input[type="url"] .placeholder,
+.comment-form input[type="date"] .placeholder,
+.search-form input[type="date"] .placeholder,
+.post-password-form input[type="date"] .placeholder,
+.comment-form textarea .placeholder,
+.search-form textarea .placeholder,
+.post-password-form textarea .placeholder {
 	color: #ccc;
 }
 
@@ -642,7 +497,7 @@ textarea {
 }
 
 .commentlist-item .commentlist-item,
-.commentlist-item + .commentlist-item {
+.commentlist-item+.commentlist-item {
 	padding-top: 1.2em;
 }
 
@@ -967,7 +822,8 @@ img.aligncenter {
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
-	line-height: 1; /* Better Font Rendering =========== */
+	line-height: 1;
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -1032,9 +888,10 @@ a:focus {
 -------------------------------------------------------------------*/
 
 #header {
-	padding: 33px 0 17px;
-	background: #fff;
+	padding: 5px 0 0px;
+	background: #fffcf4;
 	margin-top: -100px;
+
 }
 
 #header.sticky-header.sticky {
@@ -1045,8 +902,10 @@ a:focus {
 	z-index: 9;
 	-webkit-transition: all .6s ease .8s;
 	transition: all .6s ease .8s;
-	-ms-transform: translateY(100px); /* IE 9 */
-	-webkit-transform: translateY(100px); /* Safari */
+	-ms-transform: translateY(100px);
+	/* IE 9 */
+	-webkit-transform: translateY(100px);
+	/* Safari */
 	transform: translateY(100px);
 }
 
@@ -1062,7 +921,7 @@ a:focus {
 .logo {
 	float: left;
 	width: 80px;
-	margin-left:20px;
+	margin-left: 20px;
 }
 
 .logo a {
@@ -1161,7 +1020,7 @@ a:focus {
 	float: left;
 }
 
-#header .navbar-nav > li > a {
+#header .navbar-nav>li>a {
 	margin: 0 0 13px;
 }
 
@@ -1211,7 +1070,7 @@ a:focus {
 	line-height: 16px;
 	color: #252525;
 	padding: 20px 12px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	font-weight: 700;
 }
 
@@ -1250,12 +1109,12 @@ a:focus {
 
 #header .navbar-nav .dropdown-menu {
 	margin: 0;
-  border: 0;
-  padding: 0;
-  border-radius: 0;
+	border: 0;
+	padding: 0;
+	border-radius: 0;
 	font-style: normal;
-  border-top: 2px solid transparent;
-  box-shadow: 0 13px 12px rgba(0, 0, 0, 0.176);
+	border-top: 2px solid transparent;
+	box-shadow: 0 13px 12px rgba(0, 0, 0, 0.176);
 }
 
 #header .navbar-nav .dropdown-menu li {
@@ -1268,21 +1127,23 @@ a:focus {
 	visibility: visible;
 }
 
-#header .navbar-nav .dropdown-menu li:hover > a {
+#header .navbar-nav .dropdown-menu li:hover>a {
 	background: #f2eeeb;
 }
 
 #header .navbar-nav .dropdown-menu a {
-  border-bottom: 1px solid #e5e5e5;
-  padding: 16px 10px 16px 45px;
-  text-transform: lowercase;
-  text-transform: capitalize;
-  line-height: 18px;
-  font-size: 16px;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 16px 10px 16px 45px;
+	text-transform: lowercase;
+	text-transform: capitalize;
+	line-height: 18px;
+	font-size: 16px;
 	width: 100%;
 }
 
-#header .navbar-nav .dropdown-menu li:last-child a{border-bottom: 0;}
+#header .navbar-nav .dropdown-menu li:last-child a {
+	border-bottom: 0;
+}
 
 #header .navbar-nav .dropdown-menu a:hover {
 	color: #000;
@@ -1296,7 +1157,7 @@ a:focus {
 #header .navbar-nav .drop {
 	margin: 0;
 	opacity: 0;
-  padding: 0;
+	padding: 0;
 	visibility: hidden;
 	-webkit-transition: all ease .5s;
 	transition: all ease .5s;
@@ -1323,7 +1184,7 @@ a:focus {
 .dropdown-menu {
 	opacity: 0;
 	display: block;
-  min-width: 240px;
+	min-width: 240px;
 	visibility: hidden;
 	-webkit-transition: all .6s ease;
 	transition: all .6s ease;
@@ -1331,23 +1192,27 @@ a:focus {
 	-ms-transform: translateY(30px);
 	transform: translateY(30px);
 	-webkit-transition: all .6s ease;
-	-ms-transform: translateY(30px); /* IE 9 */
-	-webkit-transform: translateY(100px); /* Safari */
+	-ms-transform: translateY(30px);
+	/* IE 9 */
+	-webkit-transform: translateY(100px);
+	/* Safari */
 }
 
-.navbar-nav > li.open .dropdown-menu,
-.navbar-nav > li.dropdown:hover .dropdown-menu {
+.navbar-nav>li.open .dropdown-menu,
+.navbar-nav>li.dropdown:hover .dropdown-menu {
 	opacity: 1;
 	display: block;
 	visibility: visible;
 	transform: translateY(0);
-	-ms-transform: translateY(0); /* IE 9 */
-	-webkit-transform: translateY(0); /* Safari */
+	-ms-transform: translateY(0);
+	/* IE 9 */
+	-webkit-transform: translateY(0);
+	/* Safari */
 }
 
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:hover,
+.dropdown-menu>.active>a:focus {
 	background: transparent;
 }
 
@@ -1384,8 +1249,10 @@ a:focus {
 
 .visual .slide.slick-active .image {
 	opacity: 1;
-	-ms-transform: scale(1); /* IE 9 */
-	-webkit-transform: scale(1); /* Safari */
+	-ms-transform: scale(1);
+	/* IE 9 */
+	-webkit-transform: scale(1);
+	/* Safari */
 	transform: scale(1);
 	-webkit-transition: all .6s ease .4s;
 	transition: all .6s ease .4s;
@@ -1393,8 +1260,10 @@ a:focus {
 
 .visual .slide.slick-active .box {
 	opacity: 1;
-	-ms-transform: rotate(0) translateX(0); /* IE 9 */
-	-webkit-transform: rotate(0) translateX(0); /* Safari */
+	-ms-transform: rotate(0) translateX(0);
+	/* IE 9 */
+	-webkit-transform: rotate(0) translateX(0);
+	/* Safari */
 	transform: rotate(0) translateX(0);
 	-webkit-transition: all .8s ease 1s;
 	transition: all .8s ease 1s;
@@ -1402,8 +1271,10 @@ a:focus {
 
 .visual .slide.slick-active .caption h1 {
 	opacity: 1;
-	-ms-transform: translateY(0); /* IE 9 */
-	-webkit-transform: translateY(0); /* Safari */
+	-ms-transform: translateY(0);
+	/* IE 9 */
+	-webkit-transform: translateY(0);
+	/* Safari */
 	transform: translateY(0);
 	-webkit-transition: all .8s ease 1.8s;
 	transition: all .8s ease 1.8s;
@@ -1411,8 +1282,10 @@ a:focus {
 
 .visual .slide.slick-active .caption .txt {
 	opacity: 1;
-	-ms-transform: translateY(0); /* IE 9 */
-	-webkit-transform: translateY(0); /* Safari */
+	-ms-transform: translateY(0);
+	/* IE 9 */
+	-webkit-transform: translateY(0);
+	/* Safari */
 	transform: translateY(0);
 	-webkit-transition: all .8s ease 1.8s;
 	transition: all .8s ease 1.8s;
@@ -1420,8 +1293,10 @@ a:focus {
 
 .visual .slide.slick-active .social-networks {
 	opacity: 1;
-	-ms-transform: translateY(0); /* IE 9 */
-	-webkit-transform: translateY(0); /* Safari */
+	-ms-transform: translateY(0);
+	/* IE 9 */
+	-webkit-transform: translateY(0);
+	/* Safari */
 	transform: translateY(0);
 	-webkit-transition: all .8s ease 1.8s;
 	transition: all .8s ease 1.8s;
@@ -1430,8 +1305,10 @@ a:focus {
 .visual .slide .image {
 	width: 54.8%;
 	opacity: 0;
-	-ms-transform: scale(0); /* IE 9 */
-	-webkit-transform: scale(0); /* Safari */
+	-ms-transform: scale(0);
+	/* IE 9 */
+	-webkit-transform: scale(0);
+	/* Safari */
 	transform: scale(0);
 	-webkit-transition: all .6s ease .8s;
 	transition: all .6s ease .8s;
@@ -1461,8 +1338,10 @@ a:focus {
 	font-size: 24px;
 	line-height: 26px;
 	opacity: 0;
-	-ms-transform: translateY(50px); /* IE 9 */
-	-webkit-transform: translateY(50px); /* Safari */
+	-ms-transform: translateY(50px);
+	/* IE 9 */
+	-webkit-transform: translateY(50px);
+	/* Safari */
 	transform: translateY(50px);
 	-webkit-transition: all .6s ease 2s;
 	transition: all .6s ease 2s;
@@ -1475,8 +1354,10 @@ a:focus {
 	font-size: 100px;
 	line-height: 100px;
 	opacity: 0;
-	-ms-transform: translateY(50px); /* IE 9 */
-	-webkit-transform: translateY(50px); /* Safari */
+	-ms-transform: translateY(50px);
+	/* IE 9 */
+	-webkit-transform: translateY(50px);
+	/* Safari */
 	transform: translateY(50px);
 	-webkit-transition: all .6s ease 2s;
 	transition: all .6s ease 2s;
@@ -1498,8 +1379,10 @@ a:focus {
 .visual .slide .box {
 	opacity: 0;
 	z-index: -1;
-	-ms-transform: rotate(20deg) translateX(50px); /* IE 9 */
-	-webkit-transform: rotate(20deg) translateX(50px); /* Safari */
+	-ms-transform: rotate(20deg) translateX(50px);
+	/* IE 9 */
+	-webkit-transform: rotate(20deg) translateX(50px);
+	/* Safari */
 	transform: rotate(20deg) translateX(50px);
 	-webkit-transition: all .6s ease 1.4s;
 	transition: all .6s ease 1.4s;
@@ -1567,8 +1450,10 @@ a:focus {
 	left: 0;
 	bottom: 0;
 	opacity: 0;
-	-ms-transform: translateY(50px); /* IE 9 */
-	-webkit-transform: translateY(50px); /* Safari */
+	-ms-transform: translateY(50px);
+	/* IE 9 */
+	-webkit-transform: translateY(50px);
+	/* Safari */
 	transform: translateY(50px);
 	-webkit-transition: all .6s ease 2s;
 	transition: all .6s ease 2s;
@@ -2253,7 +2138,7 @@ a:focus {
 	letter-spacing: 24px;
 	font-weight: 700;
 	white-space: nowrap;
-  color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.1);
 }
 
 .info .num {
@@ -2264,7 +2149,7 @@ a:focus {
 	line-height: 72px;
 	padding: 12px 129px 0 43px;
 	letter-spacing: 14px;
-  color: rgba(255, 255, 255, 0.1);
+	color: rgba(255, 255, 255, 0.1);
 }
 
 .info .more {
@@ -2669,7 +2554,7 @@ a:focus {
 	width: 33.3%;
 }
 
-.info .img-area .img-b .image-frame + .image-frame {
+.info .img-area .img-b .image-frame+.image-frame {
 	width: 66.7%;
 }
 
@@ -3123,11 +3008,11 @@ a:focus {
 
 .blockquote {
 	overflow: hidden;
-  margin: 0 0 50px;
+	margin: 0 0 50px;
 	position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 
 .blockquote .img {
@@ -3137,14 +3022,14 @@ a:focus {
 }
 
 .blockquote .frame {
-  margin: 30px 20px;
-  border: 1px solid #5e5e5e;
+	margin: 30px 20px;
+	border: 1px solid #5e5e5e;
 }
 
 .blockquote .box-t {
 	width: 100%;
 	height: 100%;
-  display: table;
+	display: table;
 }
 
 .blockquote .box-c {
@@ -3430,7 +3315,7 @@ a:focus {
 	position: relative;
 }
 
-.post .social li + li:after {
+.post .social li+li:after {
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -3453,11 +3338,11 @@ a:focus {
 	width: auto;
 }
 
-.post .social .social-networks li + li {
+.post .social .social-networks li+li {
 	border: 0;
 }
 
-.post .social .social-networks li + li:after {
+.post .social .social-networks li+li:after {
 	display: none;
 }
 
@@ -3483,7 +3368,7 @@ a:focus {
 	position: relative;
 }
 
-.post .info-list li + li:after {
+.post .info-list li+li:after {
 	position: absolute;
 	left: -10px;
 	top: 5px;
@@ -3694,7 +3579,7 @@ a:focus {
 	border-color: transparent transparent transparent #e5e5e5;
 }
 
-.sidebar .categories li + li {
+.sidebar .categories li+li {
 	border-top: 1px solid #e5e5e5;
 }
 
@@ -4090,7 +3975,7 @@ a:focus {
 	width: 42.6%;
 }
 
-.comment-form .column .rows + .rows {
+.comment-form .column .rows+.rows {
 	float: right;
 }
 
@@ -4536,15 +4421,15 @@ a:focus {
 	position: relative;
 }
 
-.map-canvas{
-  top: 0;
-  bottom: 0;
-  width: 1200px;
-  position: absolute;
-  left: 50% !important;
-  right: auto !important;
-  transform: translateX(-50%) !important;
-  -webkit-transform: translateX(-50%) !important;
+.map-canvas {
+	top: 0;
+	bottom: 0;
+	width: 1200px;
+	position: absolute;
+	left: 50% !important;
+	right: auto !important;
+	transform: translateX(-50%) !important;
+	-webkit-transform: translateX(-50%) !important;
 }
 
 .map img {
@@ -4591,7 +4476,7 @@ a:focus {
 	transform: translateY(-50%) translateX(-50%);
 }
 
-.loader > div {
+.loader>div {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -4602,7 +4487,7 @@ a:focus {
 	border: 0 solid transparent;
 }
 
-.loader > div:first-child {
+.loader>div:first-child {
 	position: absolute;
 	width: 42px;
 	height: 42px;
@@ -4615,7 +4500,7 @@ a:focus {
 	animation: ball-clip-rotate-pulse-rotate 1s cubic-bezier(.09, .57, .49, .9) infinite;
 }
 
-.loader > div:last-child {
+.loader>div:last-child {
 	width: 21px;
 	height: 21px;
 	-webkit-animation: ball-clip-rotate-pulse-scale 1s cubic-bezier(.09, .57, .49, .9) infinite;
@@ -4649,8 +4534,10 @@ a:focus {
 	opacity: 1;
 	transition: all .6s ease;
 	-webkit-transition: all .6s ease;
-	-ms-transform: translateY(-20px); /* IE 9 */
-	-webkit-transform: translateY(-20px); /* Safari */
+	-ms-transform: translateY(-20px);
+	/* IE 9 */
+	-webkit-transform: translateY(-20px);
+	/* Safari */
 	transform: translateY(-20px);
 }
 
@@ -4887,7 +4774,7 @@ a:focus {
 
 .fancybox-error {
 	color: #444;
-	font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: 14px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 15px;
 	white-space: nowrap;
@@ -4956,7 +4843,8 @@ a:focus {
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
-	background: transparent url("../images/fancybox/blank.gif"); /* helps IE */
+	background: transparent url("../images/fancybox/blank.gif");
+	/* helps IE */
 	-webkit-tap-highlight-color: transparent;
 	z-index: 8040;
 }
@@ -5044,7 +4932,7 @@ a:focus {
 
 .fancybox-title {
 	visibility: hidden;
-	font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font: normal 13px/20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	position: relative;
 	text-shadow: none;
 	z-index: 8050;
@@ -5067,7 +4955,8 @@ a:focus {
 	display: inline-block;
 	margin-right: -100%;
 	padding: 2px 20px;
-	background: transparent; /* Fallback for web browsers that doesn't support RGBa */
+	background: transparent;
+	/* Fallback for web browsers that doesn't support RGBa */
 	background: rgba(0, 0, 0, .8);
 	border-radius: 15px;
 	text-shadow: 0 1px 2px #222;
@@ -5098,192 +4987,201 @@ a:focus {
 }
 
 .error-sec {
-  padding: 15px 0 120px;
-  overflow: hidden;
+	padding: 15px 0 120px;
+	overflow: hidden;
 }
-.error-sec.coming-soon{
-  padding: 0;
-  margin-top: -100px;
+
+.error-sec.coming-soon {
+	padding: 0;
+	margin-top: -100px;
 }
 
 .error-sec .error-code {
-  font-size: 150px;
-  line-height: 160px;
-  color: #252525;
-  display: block;
-  margin: 0 0 57px;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  letter-spacing: 12px;
+	font-size: 150px;
+	line-height: 160px;
+	color: #252525;
+	display: block;
+	margin: 0 0 57px;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	letter-spacing: 12px;
 }
 
 .error-sec .error-code b {
-  background-image: url(images/zero.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-indent: -9999px;
-  margin: 36px 12px 0 0;
-  width: 107px;
-  height: 107px;
-  display: inline-block;
-  vertical-align: top;
-  overflow: hidden;
+	background-image: url(images/zero.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: -9999px;
+	margin: 36px 12px 0 0;
+	width: 107px;
+	height: 107px;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
 }
 
 .error-sec .txt {
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
-  font-weight: 400;
-  font-family: "muli", sans-serif;
-  margin: 0 0 60px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #707070;
+	font-weight: 400;
+	font-family: "muli", sans-serif;
+	margin: 0 0 60px;
 }
 
 .error-sec .txt .title {
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 32px;
-  color: #252525;
-  text-transform: center;
-  display: block;
-  margin: 0 0 29px;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 32px;
+	color: #252525;
+	text-transform: center;
+	display: block;
+	margin: 0 0 29px;
 }
 
 .error-sec .txt .title i {
-  font-style: normal;
+	font-style: normal;
 }
 
 .error-sec .btn-back {
-  font-size: 12px;
-  line-height: 14px;
-  color: #252525;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  padding: 13px 10px 12px 10px;
-  letter-spacing: 2px;
-  border: 1px solid #252525;
-  border-radius: 2px;
-  width: 190px;
-  margin: 0 auto;
-  display: block;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
+	font-size: 12px;
+	line-height: 14px;
+	color: #252525;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	padding: 13px 10px 12px 10px;
+	letter-spacing: 2px;
+	border: 1px solid #252525;
+	border-radius: 2px;
+	width: 190px;
+	margin: 0 auto;
+	display: block;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
 }
 
 .error-sec .btn-back:hover {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 .error-sec h1 {
-  font-size: 30px;
-  line-height: 32px;
-  color: #252525;
-  margin: 0 0 21px;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
+	font-size: 30px;
+	line-height: 32px;
+	color: #252525;
+	margin: 0 0 21px;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
 }
 
 .error-sec .sub-title {
-  font-size: 12px;
-  line-height: 14px;
-  color: #707070;
-  margin: 0 0 109px;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  letter-spacing: 3px;
-  display: block;
+	font-size: 12px;
+	line-height: 14px;
+	color: #707070;
+	margin: 0 0 109px;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	letter-spacing: 3px;
+	display: block;
 }
 
 .error-sec h2 {
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
-  margin: 0 0 32px;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	color: #707070;
+	margin: 0 0 32px;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
 }
 
 .error-sec .footer-socials {
-  font-size: 13px;
-  line-height: 15px;
-  color: #707070;
-  width: 232px;
-  overflow: hidden;
-  margin: 0 auto;
+	font-size: 13px;
+	line-height: 15px;
+	color: #707070;
+	width: 232px;
+	overflow: hidden;
+	margin: 0 auto;
 }
 
 .error-sec .footer-socials li {
-  float: left;
-  margin: 0 0 0 43px;
+	float: left;
+	margin: 0 0 0 43px;
 }
 
-.error-sec .footer-socials li:first-child { margin: 0; }
-.error-sec .countdown-section{
-  margin: 0 0 0 100px;
-}
-.error-sec .countdown-section:first-child{ margin: 0; }
-
-.error-sec .comming-timer{
-  border-width: 0 0 2px;
-  border-style: solid;
-  margin: 0 auto 76px;
-  padding: 0 0 38px;
-  width: 920px;
-}
-.comming-timer .countdown-amount{
-  font-size: 48px;
-  line-height: 50px;
-  color: #252525;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  margin: 0 5px 0 0;
+.error-sec .footer-socials li:first-child {
+	margin: 0;
 }
 
-.comming-timer .countdown-period{
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
-  text-transform: uppercase;
-  font-family: "muli", sans-serif;
-  font-weight: 700;
-  position: relative;
+.error-sec .countdown-section {
+	margin: 0 0 0 100px;
 }
 
-.comming-timer .countdown-period:before{
-  position: absolute;
-  content: "/";
-  left: -5px;
-  top: 2px;
-  font-size: 16px;
-  line-height: 18px;
-  color: #707070;
+.error-sec .countdown-section:first-child {
+	margin: 0;
+}
+
+.error-sec .comming-timer {
+	border-width: 0 0 2px;
+	border-style: solid;
+	margin: 0 auto 76px;
+	padding: 0 0 38px;
+	width: 920px;
+}
+
+.comming-timer .countdown-amount {
+	font-size: 48px;
+	line-height: 50px;
+	color: #252525;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	margin: 0 5px 0 0;
+}
+
+.comming-timer .countdown-period {
+	font-size: 16px;
+	line-height: 18px;
+	color: #707070;
+	text-transform: uppercase;
+	font-family: "muli", sans-serif;
+	font-weight: 700;
+	position: relative;
+}
+
+.comming-timer .countdown-period:before {
+	position: absolute;
+	content: "/";
+	left: -5px;
+	top: 2px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #707070;
 }
 
 .error-sec.coming-soon .container-holder {
-  white-space: nowrap;
-  text-align: center;
+	white-space: nowrap;
+	text-align: center;
 }
 
 .error-sec.coming-soon .container-holder:after {
-  content: "";
-  display: inline-block;
-  vertical-align: middle;
-  width: 0;
-  min-height: 100vh;
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 0;
+	min-height: 100vh;
 }
 
-.error-sec.coming-soon .container-holder > * {
-  white-space: normal;
-  display: inline-block;
-  vertical-align: middle;
-  max-width: 99%;
+.error-sec.coming-soon .container-holder>* {
+	white-space: normal;
+	display: inline-block;
+	vertical-align: middle;
+	max-width: 99%;
 }
+
 .error-sec .footer-socials a {
-  color: #707070;
-  -webkit-transition: all .25s linear;
-  transition: all .25s linear;
+	color: #707070;
+	-webkit-transition: all .25s linear;
+	transition: all .25s linear;
 }
 
 @media (min-width: 768px) {
@@ -5293,6 +5191,7 @@ a:focus {
 }
 
 @media (max-width: 767px) {
+
 	.navigation .page-numbers,
 	.navigation-comments .page-numbers {
 		padding: 0;
@@ -5346,6 +5245,7 @@ a:focus {
 }
 
 @-webkit-keyframes ball-clip-rotate-pulse-scale {
+
 	0%,
 	100% {
 		opacity: 1;
@@ -5361,6 +5261,7 @@ a:focus {
 }
 
 @keyframes ball-clip-rotate-pulse-scale {
+
 	0%,
 	100% {
 		opacity: 1;
@@ -5374,4 +5275,3 @@ a:focus {
 		transform: translate(-50%, -50%) scale(.15);
 	}
 }
-
