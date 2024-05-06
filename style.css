@@ -1216,6 +1216,53 @@ a:focus {
 	background: transparent;
 }
 
+
+/* here is the css for gallery part */
+.filter-wrapper {
+	position: relative;
+	background-color: black;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.filters {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.filter-button {
+	background-color: transparent;
+	/* border: 1px solid white; */
+	color: white;
+	padding: 5px 10px;
+	margin: 0 5px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.filter-button.active {
+	background-color: white;
+	color: black;
+}
+
+.image-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	overflow-x: auto;
+}
+
+.image-wrapper img {
+	max-width: 33%;
+	/* Adjust as needed */
+	height: auto;
+}
+
+
+
 /*------------------------------------------------------------------
 5. visual / .visual
 -------------------------------------------------------------------*/
